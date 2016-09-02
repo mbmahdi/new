@@ -60,8 +60,7 @@ function exec_curl_request($handle) {
 
 function apiRequest($method, $parameters) {
   if (!is_string($method)) {
-    error_log("Method name must be a string\n");
-    return false;
+    error_log("Method name must be
   }
 
   if (!$parameters) {
